@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    overflow: hidden;
+}
+.right-content{
+    display: flex;
+    height: 100vh;
+}
+.youtube-nav{
+    background-color: white;
+    height: 3.5rem;
+}
+.youtube-slidebar{
+    background-color: red;
+    width: 14rem;
+    left: 0;
+}
+.youtube-main{
+    flex: 1;
+    background-color: rgb(255, 140, 0);
+}
