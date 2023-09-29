@@ -11,15 +11,157 @@ body{
     height: 100vh;
 }
 .youtube-nav{
-    background-color: white;
+    background-color: rgb(8, 8, 8);
     height: 3.5rem;
 }
 .youtube-slidebar{
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     width: 14rem;
     left: 0;
+    overflow: auto;
 }
 .youtube-main{
     flex: 1;
-    background-color: rgb(255, 140, 0);
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+}
+.main-nav{
+    background-color: rgb(0, 0, 0);
+    height: 3.5rem;
+    width: 100%;
+    position: fixed;
+}
+.youtube-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-nav-options img{
+    height: 1.5rem;
+    width: 4rem;
+}
+.left-nav-options i{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0.7rem;
+}
+.searchbar-nav{
+    height: 2.5rem;
+    width: 45.75rem;
+}
+.searchbar-nav input{
+    width: 32.15rem;
+    height:1.6rem;
+    background-color: black;
+    border: none;
+    padding: 0.1rem 0;
+    margin-left: 2rem;
+}
+.right-nav-options{
+    width: 14rem;
+    height: 2.5rem;
+    padding: 0 1rem;
+}
+.right-nav-options i{
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+    padding: 0.7rem;
+}
+.slidebar-content1{
+    height: 24rem;
+    width: 13.5rem;
+    padding: 0.7rem;
+}
+.nav-links{
+    padding: 0 0.8rem;
+    height: 2.5rem;
+    width: 12.75rem;
+}
+.nav-links i{
+    padding: 0 0.2rem;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 0.8rem;
+}
+.line{
+    background-color: white;
+    height: 0.1px;
+    margin: 0.5rem 1rem 1.5rem 0;
+}
+.sliderbar-content2{
+    height: 15rem;
+    width: 13.5rem;
+    padding: 0.7rem;
+}
+.sub-link{
+    padding: 0 0.8rem;
+    height: 2.5rem;
+    width: 12.75rem;
+}
+.sub-link i{
+    padding: 0 0.2rem;
+}
+.sub-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 0.8rem;
+}
+.sliderbar-content3{
+    background-color:rgb(0, 0, 0);
+    height: 14rem;
+    width: 13.5rem;
+    padding: 0.7rem;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+.main-nav-options a{
+    color: white;
+    font-size: 0.8rem;
+    padding: 0 0.75rem;
+    margin: 0.75rem 0.75rem 0.75rem 0;
+    text-decoration: none;
+}
+.main-nav-options{
+    background-color: rgb(38, 38, 38);
+    padding: 0 0.75rem;
+    margin: 0.75rem 0.75rem 0.75rem 0;
+    border-radius: 0.2rem;
+}
+.main-card{
+    background-color: rgb(0, 0, 0);
+    width: 22rem;
+    height: 19rem;
+    margin: 1rem;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.3rem 1rem 1rem 1rem;
+    padding: 1rem;
+}
+.main-content img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 1.5rem;
+
+}
+.main-card .card-title{
+    color: white;
+}
+.card-logo img{
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius:50%;
+}
+.card-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
